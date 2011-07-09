@@ -47,7 +47,7 @@ public function fetchAssocRow() {
 public function fetchAll($table='info') {
 	$this->query('SELECT * FROM '.$table);
 	$rows = array();
-	while ($row = $this->fetchRow()){
+	while ($row = $this->fetchRow()) {
 		$rows[] = $row;
 	}
 	return $rows;
