@@ -1,7 +1,7 @@
 <?php
 class MySQL {
 private $result;
-public function __construct($host = 'localhost', $user = '', $password = '', $database = 'members') {
+public function __construct($host = 'localhost', $user = 'root', $password = '', $database = 'hns') {
 	if (!$con = mysql_connect($host,$user,$password)) {
 		throw new Exception('Error connecting to the server');
 	}
