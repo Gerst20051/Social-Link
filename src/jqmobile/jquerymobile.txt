@@ -1,0 +1,15 @@
+http://brooky.cc/2011/04/23/jquery-mobile-cheat-sheet/
+
+http://jquerymobile.com/demos/1.0b1/
+
+http://msdn.microsoft.com/en-us/scriptjunkie/hh144955
+
+http://blogs.lessthandot.com/index.php/WebDev/ServerProgramming/PHP/trying-out-jquery-mobile-on
+
+http://www.emanueleferonato.com/2011/06/30/making-a-game-with-html-jquery-mobile-and-publishing-it-to-apple-app-store/
+
+http://www.elated.com/articles/jquery-mobile-what-can-it-do-for-you/
+
+http://devgrow.com/mobile-web-dev-using-jquery-mobile/
+
+http://weblogs.asp.net/yousefjadallah/archive/2011/06/22/jquery-mobile-code-snippets-1.aspx

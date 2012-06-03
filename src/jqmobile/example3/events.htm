@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>jQuery Mobile Events</title> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+<script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+<script type="text/javascript">
+
+$( function() {
+
+  $('body').bind( 'taphold', function( e ) {
+    alert( 'You tapped and held!' );
+    e.stopImmediatePropagation();
+    return false;
+  } );  
+
+  $('body').bind( 'swipe', function( e ) {
+    alert( 'You swiped!' );
+    e.stopImmediatePropagation();
+    return false;
+  } );  
+
+} );
+
+</script>  
+  
+</head>
+
+<body> 
+
+<div data-role="page" id="home">
+
+  <div data-role="header">
+    <h1>jQuery Mobile Events</h1>
+  </div>
+
+  <div data-role="content"> 
+    <p>Try:</p>
+    <ul>
+      <li>Tapping and holding</li>
+      <li>Swiping</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
